@@ -1,0 +1,116 @@
+<extend name="Public/base"/>
+<block name="content">
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">订单列表</strong>  <small></small></div>
+      </div>
+
+      <hr>
+
+      <form class="am-g" action="{:U('newslist')}" method="get">
+        <div class="am-u-sm-12 am-u-md-4">
+
+            <div class="am-form am-form-inline">
+              <div class="am-form-group am-form-icon">
+                <i class="am-icon-calendar"></i>
+                <input type="text" class="am-form-field" placeholder="下单开始时间">
+              </div>
+
+              <div class="am-form-group am-form-icon">
+                <i class="am-icon-clock-o"></i>
+                <input type="text" class="am-form-field" placeholder="下单结束时间">
+              </div>
+            </div>
+        </div>
+        <div class="am-u-sm-12 am-u-md-2">
+          <div class="am-input-group am-input-group-sm">
+            <input type="text" class="am-form-field" placeholder="会员用户名">
+          </div>
+        </div>
+        <div class="am-u-sm-12 am-u-md-2">
+          <div class="am-form-group">
+            <select data-am-selected="{btnSize: 'sm'}">
+              <option value="option1">所有类别</option>
+              <option value="option2">IT业界</option>
+              <option value="option3">数码产品</option>
+              <option value="option3">笔记本电脑</option>
+              <option value="option3">平板电脑</option>
+              <option value="option3">只能手机</option>
+              <option value="option3">超极本</option>
+            </select>
+          </div>
+        </div>
+        <div class="am-u-sm-12 am-u-md-2">
+          <div class="am-input-group am-input-group-sm">
+            <input type="text" class="am-form-field">
+            <span class="am-input-group-btn">
+            <button class="am-btn am-btn-primary" type="button">搜索</button>
+          </span>
+          </div>
+        </div>
+      </form>
+
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <form class="am-form">
+            <table class="am-table am-table-striped am-table-hover table-main">
+              <thead>
+              <tr>
+                <th class="table-title">序号</th>
+                <th class="table-title">订单编号</th>
+                <th class="table-type">会员编号</th>
+                <th class="table-author am-hide-sm-only">社区站</th>
+                <th class="table-date am-hide-sm-only">下单日期</th>
+                <th class="table-set">操作</th>
+              </tr>
+              </thead>
+              <tbody>
+              <volist name="data" id="vo">
+                <tr>
+                  <td>{$key}</td>
+                  <td><a href="#">Business management</a></td>
+                  <td>default</td>
+                  <td class="am-hide-sm-only">测试1号</td>
+                  <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
+                  <td>
+                    <div class="am-btn-toolbar">
+                      <div class="am-btn-group am-btn-group-xs">
+                        <a  href="{:U('order/edit_order')}" class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</a>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </volist>
+              </tbody>
+            </table>
+            <div class="am-cf">
+              共 15 条记录
+              <div class="am-fr">
+                <ul class="am-pagination">
+                  <li class="am-disabled"><a href="#">«</a></li>
+                  <li class="am-active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">»</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <p>注：.....</p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </footer>
+
+  </div>
+
+</block>

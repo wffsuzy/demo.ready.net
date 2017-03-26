@@ -1,0 +1,152 @@
+<extend name="Public/base"/>
+<block name="content">
+    <div class="admin-content">
+        <div class="admin-content-body">
+            <div class="am-cf am-padding am-padding-bottom-0">
+                <div class="am-fl am-cf">
+                    <strong class="am-text-primary am-text-lg">新增商品</strong>
+                    <small></small>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="am-tabs am-margin" data-am-tabs>
+                <form class="am-form" action="{:U('edit_add_goods')}" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <div class="am-form-group">
+                            <label for="doc-ipt-email-1">商品名称</label>
+                            <input type="text" required class="" id="doc-ipt-email-1" placeholder="" name="name">
+                        </div>
+
+                        <div class="am-form-group">
+                            <label for="doc-ipt-pwd-1">商品价格</label>
+                            <input type="text" required class="" id="doc-ipt-pwd-1" placeholder="" name="price">
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-ipt-pwd-1">奖金积分</label>
+                            <input type="text" required class="" id="doc-ipt-pwd-2" placeholder="" name="price1">
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-ipt-pwd-1">充值积分</label>
+                            <input type="text" required  class="" id="doc-ipt-pwd-3" placeholder="" name="price2">
+                        </div>
+
+
+                        <div class="am-form-group am-form-file">
+                            <label for="doc-ipt-pwd-1">上传商品图片</label><br>
+                            <div style="min-width: 628px" id="container2" name="" type="text/plain"></div>
+                        </div>
+                        <div id="file-list"></div>
+
+                        <!--<div class="am-form-group">-->
+                            <!--<label class="am-checkbox-inline">-->
+                                <!--<input type="checkbox" value="option1"> 选我-->
+                            <!--</label>-->
+                            <!--<label class="am-checkbox-inline">-->
+                                <!--<input type="checkbox" value="option2"> 同时可以选我-->
+                            <!--</label>-->
+                            <!--<label class="am-checkbox-inline">-->
+                                <!--<input type="checkbox" value="option3"> 还可以选我-->
+                            <!--</label>-->
+                        <!--</div>-->
+
+                        <div class="am-form-group">
+                            <label for="doc-ipt-pwd-1">商品类型</label>
+                            <br>
+                            <label class="am-radio-inline">
+                                <input type="radio"  value="1" name="pro_type"> 注册单
+                            </label>
+                            <label class="am-radio-inline">
+                                <input type="radio" name="pro_type" value="2" checked> 零售单
+                            </label>
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-ipt-pwd-1">是否上架</label>
+                            <br>
+                            <label class="am-radio-inline">
+                                <input type="radio"  value="1" name="status" checked> 是
+                            </label>
+                            <label class="am-radio-inline">
+                                <input type="radio" name="status" value="2"> 否
+                            </label>
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-select-1">选择商品类别</label>
+                            <select id="doc-select-1" name="type">
+                                <volist name="data" id="vo">
+                                    <option value="{$vo['id']}" <php>if($vo['id'] == $info['id']) echo 'selected'</php>>{$vo['name']}</option>
+                                </volist>
+
+                            </select>
+                            <span class="am-form-caret"></span>
+                        </div>
+                        <div class="am-form-group">
+                            <label for="doc-select-2">选择投放区域</label>
+                            <php>
+                                $area = C('AREA');
+                            </php>
+                            <select id="doc-select-2" name="home">
+                                <volist name="area" id="vo">
+                                        <option value="{$key}"  <php>if($key == $info['home']) echo 'selected'</php>>{$vo}</option>
+                                </volist>
+
+                            </select>
+                            <span class="am-form-caret"></span>
+                        </div>
+
+                        <div class="am-form-group">
+                            <label for="doc-ta-1">商品描述</label>
+
+                            <div style="min-width: 628px" id="container" name="content" type="text/plain"></div>
+
+                            <!--<textarea class="" rows="5" id="doc-ta-1"></textarea>-->
+                        </div>
+                        <input type="hidden"  id="detailpath" name="detailpath" value="">
+                        <p><button type="submit" id="btn" class="am-btn am-btn-default">提交</button></p>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</block>
+<block name="js">
+    <script type="text/javascript" src="__LIB__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__LIB__/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+        var ue2 = UE.getEditor('container2');
+
+
+    </script>
+    <script>
+        $(function() {
+            $('.doc-form-file').on('change', function() {
+                var fileNames = '';
+                $.each(this.files, function() {
+                    fileNames += '<span class="am-badge">' + this.name + '</span> ';
+                });
+                $('#file-list').append(fileNames);
+            });
+
+            $('#btn').click(function () {
+                var imgReg = /<img.*?(?:>|\/>)/gi;
+                var str = ue2.getContent();
+                var arr = str.match(imgReg);
+                var imgurl='';
+                for (var i = 0; i < arr.length; i++) {
+
+                    var srcReg = /src=[\'\"]?([^\'\"]*)[\'\"]?/i;
+                    var src = arr[i].match(srcReg);
+                    imgurl+='@'+src[1];
+
+                }
+               $('#detailpath').val(imgurl);
+            })
+        });
+    </script>
+
+
+
+</block>

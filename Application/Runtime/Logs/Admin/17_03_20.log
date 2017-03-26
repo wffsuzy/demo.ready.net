@@ -1,0 +1,1878 @@
+[ 2017-03-20T14:39:54+08:00 ] ::1 /demo.lgwsh.net/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T14:39:54+08:00 ] ::1 /demo.lgwsh.net/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-20T14:39:59+08:00 ] ::1 /demo.lgwsh.net/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_admin` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `ms_admin` WHERE `username` = 'admin' AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' AND `status` = 1 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ms_admin_group` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `ms_admin_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 0 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50') AND `is_show` = 1  [ RunTime:0.0220s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 1 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 3 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 24 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 26 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 32 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 34 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 38 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 45 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 48 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+
+[ 2017-03-20T14:39:59+08:00 ] ::1 /demo.lgwsh.net/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T14:40:02+08:00 ] ::1 /demo.lgwsh.net/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T14:50:11+08:00 ] ::1 /demo.lgwsh.net/admin.php/menu/add_menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_admin_group` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ms_admin_group`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 127 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9dbbb0a4ce6ed43cccf5fdfc9ec35705.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:00:32+08:00 ] ::1 /demo.lgwsh.net/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:00:36+08:00 ] ::1 /demo.lgwsh.net/admin.php/menu/menulist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_menu` LIMIT 1   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ms_menu` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:00:39+08:00 ] ::1 /demo.lgwsh.net/admin.php/Menu/edit_menu/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ms_menu` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms_admin_group` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ms_admin_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:00:50+08:00 ] ::1 /demo.lgwsh.net/admin.php/Menu/edit_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0090s ]
+SQL: UPDATE `ms_menu` SET `name`='会员新增',`url`='user/useradd',`parent_id`='26',`is_show`='1' WHERE `id` = 28 [ RunTime:0.0140s ]
+
+[ 2017-03-20T15:00:51+08:00 ] ::1 /demo.lgwsh.net/admin.php/Menu/menulist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:00:54+08:00 ] ::1 /demo.lgwsh.net/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:00:57+08:00 ] ::1 /demo.lgwsh.net/admin.php/Public/getOut.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:00:57+08:00 ] ::1 /demo.lgwsh.net/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:01:00+08:00 ] ::1 /demo.lgwsh.net/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ms_admin` WHERE `username` = 'admin' AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ms_admin_group` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ms_admin_group` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ms_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 0 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50') AND `is_show` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 1 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 3 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 24 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 26 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 32 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 34 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 38 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 45 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_menu` WHERE `parent_id` = 48 AND `is_show` = 1 AND `id` IN ('1','2','18','29','37','3','24','25','30','31','42','44','26','27','28','47','32','33','36','41','34','35','38','39','40','45','46','48','49','50')  [ RunTime:0.0000s ]
+
+[ 2017-03-20T15:01:00+08:00 ] ::1 /demo.lgwsh.net/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:01:03+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 127 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 138 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 150 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:01:28+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 119 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 127 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 138 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 150 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:01:42+08:00 ] ::1 /demo.lgwsh.net/admin.php/admin/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:01:42+08:00 ] ::1 /demo.lgwsh.net/admin.php/Public/404.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_menu D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\eeaad4d8dba2bb5eea3891b173dcdc59.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:02:36+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 137 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 145 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 173 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:03:30+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:04:18+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:09:51+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:10:01+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+
+[ 2017-03-20T15:11:59+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:14:18+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:16:27+08:00 ] ::1 /demo.lgwsh.net/admin.php/goods/goodslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:16:30+08:00 ] ::1 /demo.lgwsh.net/admin.php/goods/goodslist?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:16:31+08:00 ] ::1 /demo.lgwsh.net/admin.php/goods/goodslist?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:16:36+08:00 ] ::1 /demo.lgwsh.net/admin.php/goods/add_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:24:52+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:25:29+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 199 行.
+NOTIC: [8] Undefined index: title D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 202 行.
+NOTIC: [8] Undefined index: url D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:25:49+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 143 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 151 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 157 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 163 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 169 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 176 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 179 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 199 行.
+NOTIC: [8] Undefined index: title D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 202 行.
+NOTIC: [8] Undefined index: url D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-20T15:34:26+08:00 ] ::1 /demo.lgwsh.net/admin.php/goods/add_goods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:34:27+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 200 行.
+NOTIC: [8] Undefined index: title D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 203 行.
+NOTIC: [8] Undefined index: url D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 206 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:37:18+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+NOTIC: [8] Undefined index: title D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 204 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:37:35+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:39:03+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:39:13+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:39:25+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:40:20+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+
+[ 2017-03-20T15:41:11+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:41:25+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+
+[ 2017-03-20T15:42:25+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:42:42+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0060s ]
+
+[ 2017-03-20T15:43:38+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:43:54+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+
+[ 2017-03-20T15:44:31+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:44:47+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0070s ]
+
+[ 2017-03-20T15:45:38+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/userAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\9b9057ce6f2d2710bcf32f4eb29fb9d2.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:45:54+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0320s ]
+
+[ 2017-03-20T15:48:06+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `ms_user` (`id`,`truename`,`phone`,`bank_user`,`bank_tree`,`address`) VALUES ('0','534','534','534','534','534') [ RunTime:0.0000s ]
+
+[ 2017-03-20T15:48:07+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_user`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T15:49:15+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:49:31+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+
+[ 2017-03-20T15:49:32+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ms_user`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T15:51:51+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 170 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 177 行.
+NOTIC: [8] Undefined index: is_show D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T16:38:55+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined variable: parent_menus D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 152 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 158 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 164 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 170 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 177 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 180 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 201 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T16:47:00+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Array to string conversion D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Array to string conversion D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Array to string conversion D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Array to string conversion D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: bank_user D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 159 行.
+NOTIC: [8] Undefined index: bank_tree D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 165 行.
+NOTIC: [8] Undefined index: address D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 171 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 178 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 181 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T16:48:06+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: bank_user D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 159 行.
+NOTIC: [8] Undefined index: bank_tree D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 165 行.
+NOTIC: [8] Undefined index: address D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 171 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 178 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 181 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T16:48:14+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: bank_user D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 159 行.
+NOTIC: [8] Undefined index: bank_tree D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 165 行.
+NOTIC: [8] Undefined index: address D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 171 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 178 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 181 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T16:48:35+08:00 ] ::1 /demo.lgwsh.net/admin.php/user/useradd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 101 行.
+NOTIC: [8] Undefined index: username D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 105 行.
+NOTIC: [8] Undefined index: truename D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 112 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 118 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 124 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 130 行.
+NOTIC: [8] Undefined index: phone D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 136 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 144 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: parent_id D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [2] Illegal string offset 'id' D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 153 行.
+NOTIC: [8] Undefined index: bank_user D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 159 行.
+NOTIC: [8] Undefined index: bank_tree D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 165 行.
+NOTIC: [8] Undefined index: address D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 171 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 178 行.
+NOTIC: [8] Undefined index: left_right D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 181 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+NOTIC: [8] Undefined index: logo D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Admin\244f0e186f6c74cf92263867262fd401.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T17:06:08+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/add_edit_user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ms_user` WHERE `username` = 'test1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ms_user` WHERE `username` IN ('测试5','测试6')  [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ms_user` WHERE `username` = '测试5' AND `is_service` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `ms_user` (`id`,`username`,`truename`,`phone`,`bank_user`,`bank_tree`,`address`,`left_right`,`higher_id`,`node_id`,`service_id`) VALUES ('0','test1','哈哈','13004488228','1111','1111','1111','2','5','6','5') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: price D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 94 行.
+NOTIC: [8] Undefined index: pv D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 95 行.
+NOTIC: [8] Undefined index: num D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 94 行.
+NOTIC: [8] Undefined index: num D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 95 行.
+NOTIC: [8] Undefined index: num D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 96 行.
+NOTIC: [8] Undefined index: id D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 97 行.
+NOTIC: [8] Undefined index: price D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 94 行.
+NOTIC: [8] Undefined index: pv D:\WWW\demo.lgwsh.net\Application\Admin\Controller\UserController.class.php 第 95 行.
+SQL: SHOW COLUMNS FROM `ms_order` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ms_order` (`user_id`,`order_id`,`pv_amount`,`amount`,`num`,`goods_id`,`create_time`) VALUES ('8','2017032048991021','0','0','1,,1','1,,2','1490000768') [ RunTime:0.0010s ]
+
+[ 2017-03-20T17:06:10+08:00 ] ::1 /demo.lgwsh.net/admin.php/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ms_user`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

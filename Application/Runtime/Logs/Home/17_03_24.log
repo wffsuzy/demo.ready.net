@@ -1,0 +1,1437 @@
+[ 2017-03-24T16:13:57+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:14:14+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:15:19+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:26:31+08:00 ] ::1 /demo.lgwsh.net/index.php/Check/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 13 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 14 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:28:50+08:00 ] ::1 /demo.lgwsh.net/index.php/Check/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 13 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 14 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 17 行.
+
+[ 2017-03-24T16:28:53+08:00 ] ::1 /demo.lgwsh.net/index.php/Check/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 13 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 14 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 17 行.
+
+[ 2017-03-24T16:28:55+08:00 ] ::1 /demo.lgwsh.net/index.php/Check/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 13 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 14 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 17 行.
+
+[ 2017-03-24T16:29:05+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:bind_phone
+
+[ 2017-03-24T16:29:12+08:00 ] ::1 /demo.lgwsh.net/index.php/Check/bind_phone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 13 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 14 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 15 行.
+NOTIC: [2] mysql_query(): Access denied for user ''@'localhost' (using password: NO) D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 16 行.
+NOTIC: [2] mysql_fetch_array() expects parameter 1 to be resource, boolean given D:\WWW\demo.lgwsh.net\ThinkPHP\Library\Vendor\WxPayv3\lib\WxPay.Config.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:43:18+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:43:55+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-24T16:44:04+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:44:05+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:44:35+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-24T16:44:36+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:45:25+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:45:32+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:46:16+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:46:32+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:46:59+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T16:48:53+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:50:45+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `ms_user` WHERE `username` = 'admin' AND `password` = 'c4ca4238a0b923820dcc509a6f75849b' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for ajax_return(), called in D:\WWW\demo.lgwsh.net\Application\Home\Controller\PublicController.class.php on line 23 and defined D:\WWW\demo.lgwsh.net\Application\Common\Common\function.php 第 10 行.
+NOTIC: [8] Undefined variable: data D:\WWW\demo.lgwsh.net\Application\Common\Common\function.php 第 15 行.
+
+[ 2017-03-24T16:51:03+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `ms_goods` WHERE `pro_type` = 1  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T16:52:54+08:00 ] ::1 /demo.lgwsh.net/index.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:00:15+08:00 ] ::1 /demo.lgwsh.net/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_lunbo` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `ms_lunbo`  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ms_goods` WHERE `home` IN (1,2,3,4) AND `status` = 1 AND `pro_type` = 2  [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ms_news` [ RunTime:0.0340s ]
+SQL: SELECT `title` FROM `ms_news` WHERE `type` = 1 AND `status` = 1 ORDER BY create_time desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: children D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 765 行.
+NOTIC: [8] Undefined index: children D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 765 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:00:21+08:00 ] ::1 /demo.lgwsh.net/index.php/index/classify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ms_goods_class` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `ms_goods_class`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:00:23+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0170s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:02:05+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T17:02:59+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0090s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:03:20+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T17:03:44+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T17:03:45+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0040s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:04:06+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:04:07+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:13:21+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+ERR: 1052:Column 'create_time' in order clause is ambiguous
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc 
+ERR: 1052:Column 'create_time' in order clause is ambiguous
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc 
+
+[ 2017-03-24T17:13:54+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0130s ]
+ERR: 1052:Column 'create_time' in order clause is ambiguous
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc 
+ERR: 1052:Column 'create_time' in order clause is ambiguous
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY create_time desc 
+
+[ 2017-03-24T17:14:20+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:16:07+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-24T17:16:07+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0120s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-24T17:16:11+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0140s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:16:14+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0070s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:16:18+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T17:16:18+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:16:21+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0120s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:16:23+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-24T17:16:27+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0090s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:30:45+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:31:17+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:31:17+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:31:54+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:31:55+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0070s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:31:55+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:31:55+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0120s ]
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+ERR: 1054:Unknown column 'c.status' in 'where clause'
+ [ SQL语句 ] : SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc 
+
+[ 2017-03-24T17:35:48+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0060s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:37:09+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:37:10+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0130s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:37:19+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+
+[ 2017-03-24T17:37:36+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+
+[ 2017-03-24T17:38:20+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:38:51+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0120s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:38:52+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:38:53+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:38:54+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:39:03+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+
+[ 2017-03-24T17:39:39+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+
+[ 2017-03-24T17:40:08+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T17:40:58+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0110s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-24T17:44:54+08:00 ] ::1 /demo.lgwsh.net/index.php/user/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ms_user` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `ms_cart` [ RunTime:0.0100s ]
+SQL: SELECT g.*,c.* FROM ms_cart c left join ms_goods as g on g.id = c.goods_id  WHERE c.user_id = 1 AND c.status = 1 ORDER BY c.create_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index: format D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+NOTIC: [8] Undefined index:  D:\WWW\demo.lgwsh.net\Application\Runtime\Cache\Home\34e991134016acfbd3067319ec01d4dd.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
