@@ -7,12 +7,12 @@
 
     <title>购物车页面</title>
 
-    <link href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
 
 </head>
 
@@ -48,18 +48,18 @@
 
 
     <?php  ?>
-    <link type="text/css" href="/demo.lgwsh.net/Public/Home/css/optstyle.css" rel="stylesheet" />
-    <link type="text/css" href="/demo.lgwsh.net/Public/Home/css/style.css" rel="stylesheet" />
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/Home/css/basic/js/quick_links.js"></script>
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/Home/js/jquery.imagezoom.min.js"></script>
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/Home/js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/Home/js/list.js"></script>
+    <link type="text/css" href="/demo.ready.net/Public/Home/css/optstyle.css" rel="stylesheet" />
+    <link type="text/css" href="/demo.ready.net/Public/Home/css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/Home/css/basic/js/quick_links.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/Home/js/jquery.imagezoom.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/Home/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/Home/js/list.js"></script>
 
     <div class="nav white">
-        <div class="logo"><img src="/demo.lgwsh.net/Public/Home/images/logo.png" /></div>
+        <div class="logo"><img src="/demo.ready.net/Public/Home/images/logo.png" /></div>
         <div class="logoBig">
-            <li><img src="/demo.lgwsh.net/Public/Home/images/logobig.png" /></li>
+            <li><img src="/demo.ready.net/Public/Home/images/logobig.png" /></li>
         </div>
         <div class="search-bar pr">
             <a name="index_none_header_sysc" href="#"></a>
@@ -138,22 +138,22 @@
                     </script>
 
                     <div class="tb-booth tb-pic tb-s310">
-                        <a href="/demo.lgwsh.net/Public/Home/images/01.jpg"><img src="/demo.lgwsh.net/Public/Home/images/01_mid.jpg" alt="细节展示放大镜特效" rel="/demo.lgwsh.net/Public/Home/images/01.jpg" class="jqzoom" /></a>
+                        <a href="/demo.ready.net/Public/Home/images/01.jpg"><img src="/demo.ready.net/Public/Home/images/01_mid.jpg" alt="细节展示放大镜特效" rel="/demo.ready.net/Public/Home/images/01.jpg" class="jqzoom" /></a>
                     </div>
                     <ul class="tb-thumb" id="thumblist">
                         <li class="tb-selected">
                             <div class="tb-pic tb-s40">
-                                <a href="#"><img src="/demo.lgwsh.net/Public/Home/images/01_small.jpg" mid="/demo.lgwsh.net/Public/Home/images/01_mid.jpg" big="/demo.lgwsh.net/Public/Home/images/01.jpg"></a>
+                                <a href="#"><img src="/demo.ready.net/Public/Home/images/01_small.jpg" mid="/demo.ready.net/Public/Home/images/01_mid.jpg" big="/demo.ready.net/Public/Home/images/01.jpg"></a>
                             </div>
                         </li>
                         <li>
                             <div class="tb-pic tb-s40">
-                                <a href="#"><img src="/demo.lgwsh.net/Public/Home/images/02_small.jpg" mid="/demo.lgwsh.net/Public/Home/images/02_mid.jpg" big="/demo.lgwsh.net/Public/Home/images/02.jpg"></a>
+                                <a href="#"><img src="/demo.ready.net/Public/Home/images/02_small.jpg" mid="/demo.ready.net/Public/Home/images/02_mid.jpg" big="/demo.ready.net/Public/Home/images/02.jpg"></a>
                             </div>
                         </li>
                         <li>
                             <div class="tb-pic tb-s40">
-                                <a href="#"><img src="/demo.lgwsh.net/Public/Home/images/03_small.jpg" mid="/demo.lgwsh.net/Public/Home/images/03_mid.jpg" big="/demo.lgwsh.net/Public/Home/images/03.jpg"></a>
+                                <a href="#"><img src="/demo.ready.net/Public/Home/images/03_small.jpg" mid="/demo.ready.net/Public/Home/images/03_mid.jpg" big="/demo.ready.net/Public/Home/images/03.jpg"></a>
                             </div>
                         </li>
                     </ul>
@@ -229,9 +229,7 @@
                                             <div class="theme-options">
                                                 <div class="cart-title">包装</div>
                                                 <ul>
-                                                    <li class="sku-line selected">手袋单人份<i></i></li>
-                                                    <li class="sku-line">礼盒双人份<i></i></li>
-                                                    <li class="sku-line">全家福礼包<i></i></li>
+                                                    <li class="sku-line selected">袋<i></i></li>
                                                 </ul>
                                             </div>
                                             <div class="theme-options">
@@ -327,13 +325,13 @@
                                 <h4>商品细节</h4>
                             </div>
                             <div class="twlistNews">
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw1.jpg" />
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw2.jpg" />
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw3.jpg" />
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw4.jpg" />
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw5.jpg" />
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw6.jpg" />
-                                <img src="/demo.lgwsh.net/Public/Home/images/tw7.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw1.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw2.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw3.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw4.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw5.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw6.jpg" />
+                                <img src="/demo.ready.net/Public/Home/images/tw7.jpg" />
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -389,7 +387,7 @@
             $('#add_shop_cart').click(function () {
                     var goods_id = $('#goods_id').val();
 
-                    $.post('<?php echo U("user/addCart");?>'   ,form.serialize(),function (data) {
+                    $.post('<?php echo U("user/addCart");?>' ,form.serialize(),function (data) {
                         alert(data.msg);
                         if(data.code){
                             return false;

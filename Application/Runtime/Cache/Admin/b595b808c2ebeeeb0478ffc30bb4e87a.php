@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="icon" type="image/png" href="/demo.lgwsh.net/Public/Admin/assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="/demo.lgwsh.net/Public/Admin/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="image/png" href="/demo.ready.net/Public/Admin/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/demo.ready.net/Public/Admin/assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <link rel="stylesheet" href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.min.css"/>
-    <link rel="stylesheet" href="/demo.lgwsh.net/Public/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="/demo.ready.net/Public/Admin/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/demo.ready.net/Public/Admin/assets/css/admin.css">
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -55,7 +55,7 @@
                 <?php if(is_array($admin_menu)): $i = 0; $__LIST__ = $admin_menu;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="admin-parent">
                     <a class="am-cf" data-am-collapse="{target: '#collapse-nav-<?php echo ($key); ?>'}"><span class="am-icon-file"></span> <?php echo ($vo['name']); ?> <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
                     <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-<?php echo ($key); ?>">
-                        <?php if(is_array($vo['children_menu'])): $i = 0; $__LIST__ = $vo['children_menu'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vv): $mod = ($i % 2 );++$i;?><li><a href="/demo.lgwsh.net/admin.php/<?php echo ($vv['url']); ?>" class="am-cf"><span class="am-icon-check"></span> <?php echo ($vv['name']); ?><span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                        <?php if(is_array($vo['children_menu'])): $i = 0; $__LIST__ = $vo['children_menu'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vv): $mod = ($i % 2 );++$i;?><li><a href="/demo.ready.net/admin.php/<?php echo ($vv['url']); ?>" class="am-cf"><span class="am-icon-check"></span> <?php echo ($vv['name']); ?><span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                     </ul>
                 </li><?php endforeach; endif; else: echo "" ;endif; ?>
                 <!--<li class="admin-parent">-->
@@ -213,27 +213,27 @@
                   <th>访问量</th>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/demo.lgwsh.net/Public/Admin/assets/i/examples/admin-chrome.png" alt=""></td>
+                  <td class="am-text-center"><img src="/demo.ready.net/Public/Admin/assets/i/examples/admin-chrome.png" alt=""></td>
                   <td>Google Chrome</td>
                   <td>3,005</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/demo.lgwsh.net/Public/Admin/assets/i/examples/admin-firefox.png" alt=""></td>
+                  <td class="am-text-center"><img src="/demo.ready.net/Public/Admin/assets/i/examples/admin-firefox.png" alt=""></td>
                   <td>Mozilla Firefox</td>
                   <td>2,505</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/demo.lgwsh.net/Public/Admin/assets/i/examples/admin-ie.png" alt=""></td>
+                  <td class="am-text-center"><img src="/demo.ready.net/Public/Admin/assets/i/examples/admin-ie.png" alt=""></td>
                   <td>Internet Explorer</td>
                   <td>1,405</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/demo.lgwsh.net/Public/Admin/assets/i/examples/admin-opera.png" alt=""></td>
+                  <td class="am-text-center"><img src="/demo.ready.net/Public/Admin/assets/i/examples/admin-opera.png" alt=""></td>
                   <td>Opera</td>
                   <td>4,005</td>
                 </tr>
                 <tr>
-                  <td class="am-text-center"><img src="/demo.lgwsh.net/Public/Admin/assets/i/examples/admin-safari.png" alt=""></td>
+                  <td class="am-text-center"><img src="/demo.ready.net/Public/Admin/assets/i/examples/admin-safari.png" alt=""></td>
                   <td>Safari</td>
                   <td>505</td>
                 </tr>
@@ -350,17 +350,17 @@
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/amazeui.ie8polyfill.min.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/jquery.min.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/jquery.min.js"></script>
 <!--<![endif]-->
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/amazeui.min.js"></script>
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/app.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/amazeui.min.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/app.js"></script>
 
-<script src="/demo.lgwsh.net/Public/lib/layer/layer.js"></script>
-<script src="/demo.lgwsh.net/Public/common/js/common.js"></script>
+<script src="/demo.ready.net/Public/lib/layer/layer.js"></script>
+<script src="/demo.ready.net/Public/common/js/common.js"></script>
 
 </body>
 </html>

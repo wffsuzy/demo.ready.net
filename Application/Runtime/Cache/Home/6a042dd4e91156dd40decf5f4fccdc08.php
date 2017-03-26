@@ -7,12 +7,12 @@
 
     <title>购物车页面</title>
 
-    <link href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
 
 </head>
 
@@ -47,8 +47,8 @@
 
 
 
-    <link href="/demo.lgwsh.net/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
-    <link href="/demo.lgwsh.net/Public/Home/css/infstyle.css" rel="stylesheet" type="text/css">
+    <link href="/demo.ready.net/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
+    <link href="/demo.ready.net/Public/Home/css/infstyle.css" rel="stylesheet" type="text/css">
     <div class="center">
         <div class="col-main">
             <div class="main-wrap">
@@ -65,7 +65,7 @@
 
                         <div class="filePic">
                             <input type="file" class="inputPic" allowexts="gif,jpeg,jpg,png,bmp" accept="image/*">
-                            <img class="am-circle am-img-thumbnail" src="/demo.lgwsh.net/Public/Home/images/getAvatar.do.jpg" alt="" />
+                            <img class="am-circle am-img-thumbnail" src="/demo.ready.net/Public/Home/images/getAvatar.do.jpg" alt="" />
                         </div>
 
                         <p class="am-form-help">头像</p>
@@ -90,18 +90,18 @@
                     <div class="info-main">
                         <form class="am-form am-form-horizontal" action="<?php echo U();?>" method="post" id="info">
 
-                            <div class="am-form-group">
-                                <label for="user-name2" class="am-form-label">昵称</label>
-                                <div class="am-form-content">
-                                    <input type="text" id="user-name2" placeholder="nickname">
+                            <!--<div class="am-form-group">-->
+                                <!--<label for="user-name2" class="am-form-label">昵称</label>-->
+                                <!--<div class="am-form-content">-->
+                                    <!--<input type="text" id="user-name2" placeholder="nickname">-->
 
-                                </div>
-                            </div>
+                                <!--</div>-->
+                            <!--</div>-->
 
                             <div class="am-form-group">
                                 <label for="user-name" class="am-form-label">姓名</label>
                                 <div class="am-form-content">
-                                    <input type="text" id="user-name2" placeholder="name">
+                                    <input type="text" id="truename" name="truename" placeholder="" value="<?php echo ($data['truename']); ?>">
 
                                 </div>
                             </div>
@@ -109,29 +109,31 @@
                             <div class="am-form-group">
                                 <label for="user-phone" class="am-form-label">电话</label>
                                 <div class="am-form-content">
-                                    <input id="user-phone" placeholder="telephonenumber" type="tel">
+                                    <input id="user-phone" placeholder="" name="phone" type="tel" value="<?php echo ($data['phone']); ?>">
 
                                 </div>
                             </div>
-                            <div class="am-form-group">
-                                <label for="user-email" class="am-form-label">电子邮件</label>
-                                <div class="am-form-content">
-                                    <input id="user-email" placeholder="Email" type="email">
+                            <!--<div class="am-form-group">-->
+                                <!--<label for="user-email" class="am-form-label">电子邮件</label>-->
+                                <!--<div class="am-form-content">-->
+                                    <!--<input id="user-email" placeholder="Email" type="email">-->
 
-                                </div>
-                            </div>
+                                <!--</div>-->
+                            <!--</div>-->
                             <div class="am-form-group address">
                                 <label for="user-address" class="am-form-label">收货地址</label>
                                 <div class="am-form-content address">
-                                    <a href="address.html">
                                         <p class="new-mu_l2cw">
-                                            <span class="province">湖北</span>省
-                                            <span class="city">武汉</span>市
-                                            <span class="dist">洪山</span>区
-                                            <span class="street">雄楚大道666号(中南财经政法大学)</span>
-                                            <span class="am-icon-angle-right"></span>
+                                           <input type="text" name="address" value="<?php echo ($data['address']); ?>">
                                         </p>
-                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="am-form-group">
+                                <label for="user-phone" class="am-form-label">银行卡号</label>
+                                <div class="am-form-content">
+                                    <input id="user-phone" placeholder="" name="bank_account" type="tel" value="<?php echo ($data['bank_account']); ?>">
 
                                 </div>
                             </div>
@@ -198,7 +200,6 @@
                     <a href="#">我的交易</a>
                     <ul>
                         <li><a href="order.html">订单管理</a></li>
-                        <li> <a href="change.html">退款售后</a></li>
                     </ul>
                 </li>
                 <li class="person">
@@ -244,7 +245,7 @@
                     }else{
                         window.location.href=data.data;
                     }
-                })
+                },'json')
             })
         })
     </script>

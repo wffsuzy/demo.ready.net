@@ -7,12 +7,12 @@
 
     <title>购物车页面</title>
 
-    <link href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
 
 </head>
 
@@ -47,8 +47,8 @@
 
 
 
-    <link href="/demo.lgwsh.net/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
-    <link href="/demo.lgwsh.net/Public/Home/css/systyle.css" rel="stylesheet" type="text/css">
+    <link href="/demo.ready.net/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
+    <link href="/demo.ready.net/Public/Home/css/systyle.css" rel="stylesheet" type="text/css">
     <b class="line"></b>
     <div class="center">
         <div class="col-main">
@@ -61,7 +61,7 @@
                             <div class="m-userinfo">
                                 <div class="m-baseinfo">
                                     <a href="information.html">
-                                        <img src="/demo.lgwsh.net/Public/Home/images/getAvatar.do.jpg">
+                                        <img src="/demo.ready.net/Public/Home/images/getAvatar.do.jpg">
                                     </a>
                                     <em class="s-name">(小叮当)<span class="vip1"></em>
                                     <div class="s-prestige am-btn am-round">
@@ -84,41 +84,41 @@
                                 </div>
                                 <p class="m-bonus">
                                     <a href="bonus.html">
-                                        <i><img src="/demo.lgwsh.net/Public/Home/images/bonus.png"/></i>
+                                        <i><img src="/demo.ready.net/Public/Home/images/bonus.png"/></i>
                                         <span class="m-title">代金券</span>
                                         <em class="m-num">2</em>
                                     </a>
                                 </p>
                                 <p class="m-coupon">
                                     <a href="coupon.html">
-                                        <i><img src="/demo.lgwsh.net/Public/Home/images/coupon.png"/></i>
+                                        <i><img src="/demo.ready.net/Public/Home/images/coupon.png"/></i>
                                         <span class="m-title">充值积分</span>
                                         <em class="m-num">2</em>
                                     </a>
                                 </p>
                                 <p class="m-bill">
                                     <a href="bill.html">
-                                        <i><img src="/demo.lgwsh.net/Public/Home/images/wallet.png"/></i>
+                                        <i><img src="/demo.ready.net/Public/Home/images/wallet.png"/></i>
                                         <span class="m-title">奖金积分</span>
                                         <em class="m-num">2</em>
                                     </a>
                                 </p>
                                 <p class="m-bill">
                                     <a href="bill.html">
-                                        <i><img src="/demo.lgwsh.net/Public/Home/images/wallet.png"/></i>
+                                        <i><img src="/demo.ready.net/Public/Home/images/wallet.png"/></i>
                                         <span class="m-title">复用消费币</span>
                                         <em class="m-num">2</em>
                                     </a>
                                 </p>
                                 <p class="m-big">
                                     <a href="#">
-                                        <i><img src="/demo.lgwsh.net/Public/Home/images/day-to.png"/></i>
+                                        <i><img src="/demo.ready.net/Public/Home/images/day-to.png"/></i>
                                         <span class="m-title">签到有礼</span>
                                     </a>
                                 </p>
                                 <p class="m-big">
                                     <a href="#">
-                                        <i><img src="/demo.lgwsh.net/Public/Home/images/72h.png"/></i>
+                                        <i><img src="/demo.ready.net/Public/Home/images/72h.png"/></i>
                                         <span class="m-title">72小时发货</span>
                                     </a>
                                 </p>
@@ -133,11 +133,9 @@
                                 <a class="i-load-more-item-shadow" href="order.html">全部订单</a>
                             </div>
                             <ul>
-                                <li><a href="order.html"><i><img src="/demo.lgwsh.net/Public/Home/images/pay.png"/></i><span>待付款</span></a></li>
-                                <li><a href="order.html"><i><img src="/demo.lgwsh.net/Public/Home/images/send.png"/></i><span>待发货<em class="m-num">1</em></span></a></li>
-                                <li><a href="order.html"><i><img src="/demo.lgwsh.net/Public/Home/images/receive.png"/></i><span>待收货</span></a></li>
-                                <li><a href="order.html"><i><img src="/demo.lgwsh.net/Public/Home/images/comment.png"/></i><span>待评价<em class="m-num">3</em></span></a></li>
-                                <li><a href="change.html"><i><img src="/demo.lgwsh.net/Public/Home/images/refund.png"/></i><span>退换货</span></a></li>
+                                <li><a href="order.html"><i><img src="/demo.ready.net/Public/Home/images/pay.png"/></i><span>待付款</span></a></li>
+                                <li><a href="order.html"><i><img src="/demo.ready.net/Public/Home/images/send.png"/></i><span>待发货<em class="m-num">1</em></span></a></li>
+                                <li><a href="order.html"><i><img src="/demo.ready.net/Public/Home/images/receive.png"/></i><span>待收货</span></a></li>
                             </ul>
                         </div>
                         <!--九宫格-->
@@ -147,243 +145,243 @@
                             </div>
                             <ul>
 
-                                <a href="<?php echo U('info');?>"><li class="am-u-sm-4"><i class="am-icon-shopping-basket am-icon-md"></i><img src="/demo.lgwsh.net/Public/Home/images/iconbig.png"/><p>我的信息</p></li></a>
-                                <a href="<?php echo U('change_password');?>"><li class="am-u-sm-4"><i class="am-icon-heart am-icon-md"></i><img src="/demo.lgwsh.net/Public/Home/images/iconsmall1.png"/><p>修改密码</p></li></a>
-                                <a href="home/home.html"><li class="am-u-sm-4"><i class="am-icon-gift am-icon-md"></i><img src="/demo.lgwsh.net/Public/Home/images/iconsmall0.png"/><p>申请提现</p></li></a>
-                                <a href="comment.html"><li class="am-u-sm-4"><i class="am-icon-pencil am-icon-md"></i><img src="/demo.lgwsh.net/Public/Home/images/iconsmall3.png"/><p>好友转账</p></li></a>
-                                <a href="foot.html"><li class="am-u-sm-4"><i class="am-icon-clock-o am-icon-md"></i><img src="/demo.lgwsh.net/Public/Home/images/iconsmall2.png"/><p>我的足迹</p></li></a>
+                                <a href="<?php echo U('info');?>"><li class="am-u-sm-4"><i class="am-icon-shopping-basket am-icon-md"></i><img src="/demo.ready.net/Public/Home/images/iconbig.png"/><p>我的信息</p></li></a>
+                                <a href="<?php echo U('change_password');?>"><li class="am-u-sm-4"><i class="am-icon-heart am-icon-md"></i><img src="/demo.ready.net/Public/Home/images/iconsmall1.png"/><p>修改密码</p></li></a>
+                                <a href="home/home.html"><li class="am-u-sm-4"><i class="am-icon-gift am-icon-md"></i><img src="/demo.ready.net/Public/Home/images/iconsmall0.png"/><p>申请提现</p></li></a>
+                                <a href="comment.html"><li class="am-u-sm-4"><i class="am-icon-pencil am-icon-md"></i><img src="/demo.ready.net/Public/Home/images/iconsmall3.png"/><p>好友转账</p></li></a>
+                                <a href="foot.html"><li class="am-u-sm-4"><i class="am-icon-clock-o am-icon-md"></i><img src="/demo.ready.net/Public/Home/images/iconsmall2.png"/><p>我的足迹</p></li></a>
                             </ul>
                         </div>
                         <!--物流 -->
-                        <div class="m-logistics">
+                        <!--<div class="m-logistics">-->
 
-                            <div class="s-bar">
-                                <i class="s-icon"></i>我的物流
-                            </div>
-                            <div class="s-content">
-                                <ul class="lg-list">
+                            <!--<div class="s-bar">-->
+                                <!--<i class="s-icon"></i>我的物流-->
+                            <!--</div>-->
+                            <!--<div class="s-content">-->
+                                <!--<ul class="lg-list">-->
 
-                                    <li class="lg-item">
-                                        <div class="item-info">
-                                            <a href="#">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/65.jpg_120x120xz.jpg" alt="抗严寒冬天保暖隔凉羊毛毡底鞋垫超薄0.35厘米厚吸汗排湿气舒适">
-                                            </a>
+                                    <!--<li class="lg-item">-->
+                                        <!--<div class="item-info">-->
+                                            <!--<a href="#">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/65.jpg_120x120xz.jpg" alt="抗严寒冬天保暖隔凉羊毛毡底鞋垫超薄0.35厘米厚吸汗排湿气舒适">-->
+                                            <!--</a>-->
 
-                                        </div>
-                                        <div class="lg-info">
+                                        <!--</div>-->
+                                        <!--<div class="lg-info">-->
 
-                                            <p>快件已从 义乌 发出</p>
-                                            <time>2015-12-20 17:58:05</time>
+                                            <!--<p>快件已从 义乌 发出</p>-->
+                                            <!--<time>2015-12-20 17:58:05</time>-->
 
-                                            <div class="lg-detail-wrap">
-                                                <a class="lg-detail i-tip-trigger" href="logistics.html">查看物流明细</a>
-                                                <div class="J_TipsCon hide">
-                                                    <div class="s-tip-bar">中通快递&nbsp;&nbsp;&nbsp;&nbsp;运单号：373269427686</div>
-                                                    <div class="s-tip-content">
-                                                        <ul>
-                                                            <li>快件已从 义乌 发出2015-12-20 17:58:05</li>
-                                                            <li>义乌 的 义乌总部直发车 已揽件2015-12-20 17:54:49</li>
-                                                            <li class="s-omit"><a data-spm-anchor-id="a1z02.1.1998049142.3" target="_blank" href="#">··· 查看全部</a></li>
-                                                            <li>您的订单开始处理2015-12-20 08:13:48</li>
+                                            <!--<div class="lg-detail-wrap">-->
+                                                <!--<a class="lg-detail i-tip-trigger" href="logistics.html">查看物流明细</a>-->
+                                                <!--<div class="J_TipsCon hide">-->
+                                                    <!--<div class="s-tip-bar">中通快递&nbsp;&nbsp;&nbsp;&nbsp;运单号：373269427686</div>-->
+                                                    <!--<div class="s-tip-content">-->
+                                                        <!--<ul>-->
+                                                            <!--<li>快件已从 义乌 发出2015-12-20 17:58:05</li>-->
+                                                            <!--<li>义乌 的 义乌总部直发车 已揽件2015-12-20 17:54:49</li>-->
+                                                            <!--<li class="s-omit"><a data-spm-anchor-id="a1z02.1.1998049142.3" target="_blank" href="#">··· 查看全部</a></li>-->
+                                                            <!--<li>您的订单开始处理2015-12-20 08:13:48</li>-->
 
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                        <!--</ul>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
 
-                                        </div>
-                                        <div class="lg-confirm">
-                                            <a class="i-btn-typical" href="#">确认收货</a>
-                                        </div>
-                                    </li>
-                                    <div class="clear"></div>
+                                        <!--</div>-->
+                                        <!--<div class="lg-confirm">-->
+                                            <!--<a class="i-btn-typical" href="#">确认收货</a>-->
+                                        <!--</div>-->
+                                    <!--</li>-->
+                                    <!--<div class="clear"></div>-->
 
-                                    <li class="lg-item">
-                                        <div class="item-info">
-                                            <a href="#">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/88.jpg_120x120xz.jpg" alt="礼盒袜子女秋冬 纯棉袜加厚 女式中筒袜子 韩国可爱 女袜 女棉袜">
-                                            </a>
+                                    <!--<li class="lg-item">-->
+                                        <!--<div class="item-info">-->
+                                            <!--<a href="#">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/88.jpg_120x120xz.jpg" alt="礼盒袜子女秋冬 纯棉袜加厚 女式中筒袜子 韩国可爱 女袜 女棉袜">-->
+                                            <!--</a>-->
 
-                                        </div>
-                                        <div class="lg-info">
+                                        <!--</div>-->
+                                        <!--<div class="lg-info">-->
 
-                                            <p>已签收,签收人是青年城签收</p>
-                                            <time>2015-12-19 15:35:42</time>
+                                            <!--<p>已签收,签收人是青年城签收</p>-->
+                                            <!--<time>2015-12-19 15:35:42</time>-->
 
-                                            <div class="lg-detail-wrap">
-                                                <a class="lg-detail i-tip-trigger" href="logistics.html">查看物流明细</a>
-                                                <div class="J_TipsCon hide">
-                                                    <div class="s-tip-bar">天天快递&nbsp;&nbsp;&nbsp;&nbsp;运单号：666287461069</div>
-                                                    <div class="s-tip-content">
-                                                        <ul>
+                                            <!--<div class="lg-detail-wrap">-->
+                                                <!--<a class="lg-detail i-tip-trigger" href="logistics.html">查看物流明细</a>-->
+                                                <!--<div class="J_TipsCon hide">-->
+                                                    <!--<div class="s-tip-bar">天天快递&nbsp;&nbsp;&nbsp;&nbsp;运单号：666287461069</div>-->
+                                                    <!--<div class="s-tip-content">-->
+                                                        <!--<ul>-->
 
-                                                            <li>已签收,签收人是青年城签收2015-12-19 15:35:42</li>
-                                                            <li>【光谷关山分部】的派件员【关山代派】正在派件 电话:*2015-12-19 14:27:28</li>
-                                                            <li class="s-omit"><a data-spm-anchor-id="a1z02.1.1998049142.7" target="_blank" href="//wuliu.taobao.com/user/order_detail_new.htm?spm=a1z02.1.1998049142.7.8BJBiJ&amp;trade_id=1479374251166800&amp;seller_id=1651462988&amp;tracelog=yimaidaologistics">··· 查看全部</a></li>
-                                                            <li>您的订单开始处理2015-12-17 14:27:50</li>
+                                                            <!--<li>已签收,签收人是青年城签收2015-12-19 15:35:42</li>-->
+                                                            <!--<li>【光谷关山分部】的派件员【关山代派】正在派件 电话:*2015-12-19 14:27:28</li>-->
+                                                            <!--<li class="s-omit"><a data-spm-anchor-id="a1z02.1.1998049142.7" target="_blank" href="//wuliu.taobao.com/user/order_detail_new.htm?spm=a1z02.1.1998049142.7.8BJBiJ&amp;trade_id=1479374251166800&amp;seller_id=1651462988&amp;tracelog=yimaidaologistics">··· 查看全部</a></li>-->
+                                                            <!--<li>您的订单开始处理2015-12-17 14:27:50</li>-->
 
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                        <!--</ul>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
 
-                                        </div>
-                                        <div class="lg-confirm">
-                                            <a class="i-btn-typical" href="#">确认收货</a>
-                                        </div>
-                                    </li>
+                                        <!--</div>-->
+                                        <!--<div class="lg-confirm">-->
+                                            <!--<a class="i-btn-typical" href="#">确认收货</a>-->
+                                        <!--</div>-->
+                                    <!--</li>-->
 
-                                </ul>
+                                <!--</ul>-->
 
-                            </div>
+                            <!--</div>-->
 
-                        </div>
+                        <!--</div>-->
 
                         <!--收藏夹 -->
-                        <div class="you-like">
-                            <div class="s-bar">我的收藏
-                                <a class="am-badge am-badge-danger am-round">降价</a>
-                                <a class="am-badge am-badge-danger am-round">下架</a>
-                                <a class="i-load-more-item-shadow" href="#"><i class="am-icon-refresh am-icon-fw"></i>换一组</a>
-                            </div>
-                            <div class="s-content">
-                                <div class="s-item-wrap">
-                                    <div class="s-item">
+                        <!--<div class="you-like">-->
+                            <!--<div class="s-bar">我的收藏-->
+                                <!--<a class="am-badge am-badge-danger am-round">降价</a>-->
+                                <!--<a class="am-badge am-badge-danger am-round">下架</a>-->
+                                <!--<a class="i-load-more-item-shadow" href="#"><i class="am-icon-refresh am-icon-fw"></i>换一组</a>-->
+                            <!--</div>-->
+                            <!--<div class="s-content">-->
+                                <!--<div class="s-item-wrap">-->
+                                    <!--<div class="s-item">-->
 
-                                        <div class="s-pic">
-                                            <a href="#" class="s-pic-link">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/0-item_pic.jpg_220x220.jpg" alt="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" class="s-pic-img s-guess-item-img">
-                                            </a>
-                                        </div>
-                                        <div class="s-price-box">
-                                            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">42.50</em></span>
-                                            <span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">68.00</em></span>
+                                        <!--<div class="s-pic">-->
+                                            <!--<a href="#" class="s-pic-link">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/0-item_pic.jpg_220x220.jpg" alt="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" class="s-pic-img s-guess-item-img">-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="s-price-box">-->
+                                            <!--<span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">42.50</em></span>-->
+                                            <!--<span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">68.00</em></span>-->
 
-                                        </div>
-                                        <div class="s-title"><a href="#" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰">包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰</a></div>
-                                        <div class="s-extra-box">
-                                            <span class="s-comment">好评: 98.03%</span>
-                                            <span class="s-sales">月销: 219</span>
+                                        <!--</div>-->
+                                        <!--<div class="s-title"><a href="#" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰">包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰</a></div>-->
+                                        <!--<div class="s-extra-box">-->
+                                            <!--<span class="s-comment">好评: 98.03%</span>-->
+                                            <!--<span class="s-sales">月销: 219</span>-->
 
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                                <div class="s-item-wrap">
-                                    <div class="s-item">
+                                <!--<div class="s-item-wrap">-->
+                                    <!--<div class="s-item">-->
 
-                                        <div class="s-pic">
-                                            <a href="#" class="s-pic-link">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/1-item_pic.jpg_220x220.jpg" alt="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" class="s-pic-img s-guess-item-img">
-                                            </a>
-                                        </div>
-                                        <div class="s-price-box">
-                                            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">49.90</em></span>
-                                            <span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">88.00</em></span>
+                                        <!--<div class="s-pic">-->
+                                            <!--<a href="#" class="s-pic-link">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/1-item_pic.jpg_220x220.jpg" alt="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" class="s-pic-img s-guess-item-img">-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="s-price-box">-->
+                                            <!--<span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">49.90</em></span>-->
+                                            <!--<span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">88.00</em></span>-->
 
-                                        </div>
-                                        <div class="s-title"><a href="#" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰">s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰</a></div>
-                                        <div class="s-extra-box">
-                                            <span class="s-comment">好评: 99.74%</span>
-                                            <span class="s-sales">月销: 69</span>
+                                        <!--</div>-->
+                                        <!--<div class="s-title"><a href="#" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰">s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰</a></div>-->
+                                        <!--<div class="s-extra-box">-->
+                                            <!--<span class="s-comment">好评: 99.74%</span>-->
+                                            <!--<span class="s-sales">月销: 69</span>-->
 
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                                <div class="s-item-wrap">
-                                    <div class="s-item">
+                                <!--<div class="s-item-wrap">-->
+                                    <!--<div class="s-item">-->
 
-                                        <div class="s-pic">
-                                            <a href="#" class="s-pic-link">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/-0-saturn_solar.jpg_220x220.jpg" alt="4折抢购!十二生肖925银女戒指,时尚开口女戒" title="4折抢购!十二生肖925银女戒指,时尚开口女戒" class="s-pic-img s-guess-item-img">
-                                            </a>
-                                        </div>
-                                        <div class="s-price-box">
-                                            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">378.00</em></span>
-                                            <span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">1888.00</em></span>
+                                        <!--<div class="s-pic">-->
+                                            <!--<a href="#" class="s-pic-link">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/-0-saturn_solar.jpg_220x220.jpg" alt="4折抢购!十二生肖925银女戒指,时尚开口女戒" title="4折抢购!十二生肖925银女戒指,时尚开口女戒" class="s-pic-img s-guess-item-img">-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="s-price-box">-->
+                                            <!--<span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">378.00</em></span>-->
+                                            <!--<span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">1888.00</em></span>-->
 
-                                        </div>
-                                        <div class="s-title"><a href="#" title="4折抢购!十二生肖925银女戒指,时尚开口女戒">4折抢购!十二生肖925银女戒指,时尚开口女戒</a></div>
-                                        <div class="s-extra-box">
-                                            <span class="s-comment">好评: 99.93%</span>
-                                            <span class="s-sales">月销: 278</span>
+                                        <!--</div>-->
+                                        <!--<div class="s-title"><a href="#" title="4折抢购!十二生肖925银女戒指,时尚开口女戒">4折抢购!十二生肖925银女戒指,时尚开口女戒</a></div>-->
+                                        <!--<div class="s-extra-box">-->
+                                            <!--<span class="s-comment">好评: 99.93%</span>-->
+                                            <!--<span class="s-sales">月销: 278</span>-->
 
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                                <div class="s-item-wrap">
-                                    <div class="s-item">
+                                <!--<div class="s-item-wrap">-->
+                                    <!--<div class="s-item">-->
 
-                                        <div class="s-pic">
-                                            <a href="#" class="s-pic-link">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/0-item_pic.jpg_220x220.jpg" alt="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" class="s-pic-img s-guess-item-img">
-                                            </a>
-                                        </div>
-                                        <div class="s-price-box">
-                                            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">42.50</em></span>
-                                            <span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">68.00</em></span>
+                                        <!--<div class="s-pic">-->
+                                            <!--<a href="#" class="s-pic-link">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/0-item_pic.jpg_220x220.jpg" alt="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰" class="s-pic-img s-guess-item-img">-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="s-price-box">-->
+                                            <!--<span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">42.50</em></span>-->
+                                            <!--<span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">68.00</em></span>-->
 
-                                        </div>
-                                        <div class="s-title"><a href="#" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰">包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰</a></div>
-                                        <div class="s-extra-box">
-                                            <span class="s-comment">好评: 98.03%</span>
-                                            <span class="s-sales">月销: 219</span>
+                                        <!--</div>-->
+                                        <!--<div class="s-title"><a href="#" title="包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰">包邮s925纯银项链女吊坠短款锁骨链颈链日韩猫咪银饰简约夏配饰</a></div>-->
+                                        <!--<div class="s-extra-box">-->
+                                            <!--<span class="s-comment">好评: 98.03%</span>-->
+                                            <!--<span class="s-sales">月销: 219</span>-->
 
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                                <div class="s-item-wrap">
-                                    <div class="s-item">
+                                <!--<div class="s-item-wrap">-->
+                                    <!--<div class="s-item">-->
 
-                                        <div class="s-pic">
-                                            <a href="#" class="s-pic-link">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/1-item_pic.jpg_220x220.jpg" alt="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" class="s-pic-img s-guess-item-img">
-                                            </a>
-                                        </div>
-                                        <div class="s-price-box">
-                                            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">49.90</em></span>
-                                            <span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">88.00</em></span>
+                                        <!--<div class="s-pic">-->
+                                            <!--<a href="#" class="s-pic-link">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/1-item_pic.jpg_220x220.jpg" alt="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰" class="s-pic-img s-guess-item-img">-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="s-price-box">-->
+                                            <!--<span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">49.90</em></span>-->
+                                            <!--<span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">88.00</em></span>-->
 
-                                        </div>
-                                        <div class="s-title"><a href="#" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰">s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰</a></div>
-                                        <div class="s-extra-box">
-                                            <span class="s-comment">好评: 99.74%</span>
-                                            <span class="s-sales">月销: 69</span>
+                                        <!--</div>-->
+                                        <!--<div class="s-title"><a href="#" title="s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰">s925纯银千纸鹤锁骨链短款简约时尚韩版素银项链小清新秋款女配饰</a></div>-->
+                                        <!--<div class="s-extra-box">-->
+                                            <!--<span class="s-comment">好评: 99.74%</span>-->
+                                            <!--<span class="s-sales">月销: 69</span>-->
 
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                                <div class="s-item-wrap">
-                                    <div class="s-item">
+                                <!--<div class="s-item-wrap">-->
+                                    <!--<div class="s-item">-->
 
-                                        <div class="s-pic">
-                                            <a href="#" class="s-pic-link">
-                                                <img src="/demo.lgwsh.net/Public/Home/images/-0-saturn_solar.jpg_220x220.jpg" alt="4折抢购!十二生肖925银女戒指,时尚开口女戒" title="4折抢购!十二生肖925银女戒指,时尚开口女戒" class="s-pic-img s-guess-item-img">
-                                            </a>
-                                        </div>
-                                        <div class="s-price-box">
-                                            <span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">378.00</em></span>
-                                            <span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">1888.00</em></span>
+                                        <!--<div class="s-pic">-->
+                                            <!--<a href="#" class="s-pic-link">-->
+                                                <!--<img src="/demo.ready.net/Public/Home/images/-0-saturn_solar.jpg_220x220.jpg" alt="4折抢购!十二生肖925银女戒指,时尚开口女戒" title="4折抢购!十二生肖925银女戒指,时尚开口女戒" class="s-pic-img s-guess-item-img">-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="s-price-box">-->
+                                            <!--<span class="s-price"><em class="s-price-sign">¥</em><em class="s-value">378.00</em></span>-->
+                                            <!--<span class="s-history-price"><em class="s-price-sign">¥</em><em class="s-value">1888.00</em></span>-->
 
-                                        </div>
-                                        <div class="s-title"><a href="#" title="4折抢购!十二生肖925银女戒指,时尚开口女戒">4折抢购!十二生肖925银女戒指,时尚开口女戒</a></div>
-                                        <div class="s-extra-box">
-                                            <span class="s-comment">好评: 99.93%</span>
-                                            <span class="s-sales">月销: 278</span>
+                                        <!--</div>-->
+                                        <!--<div class="s-title"><a href="#" title="4折抢购!十二生肖925银女戒指,时尚开口女戒">4折抢购!十二生肖925银女戒指,时尚开口女戒</a></div>-->
+                                        <!--<div class="s-extra-box">-->
+                                            <!--<span class="s-comment">好评: 99.93%</span>-->
+                                            <!--<span class="s-sales">月销: 278</span>-->
 
-                                        </div>
-                                    </div>
-                                </div>
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                            </div>
+                            <!--</div>-->
 
-                            <div class="s-more-btn i-load-more-item" data-screen="0"><i class="am-icon-refresh am-icon-fw"></i>更多</div>
+                            <!--<div class="s-more-btn i-load-more-item" data-screen="0"><i class="am-icon-refresh am-icon-fw"></i>更多</div>-->
 
-                        </div>
+                        <!--</div>-->
 
                     </div>
                 </div>
@@ -412,7 +410,7 @@
                         <div class="new-goods-info">
                             <a class="shop-info" href="#" target="_blank">
                                 <div class="face-img-panel">
-                                    <img src="/demo.lgwsh.net/Public/Home/images/imgsearch1.jpg" alt="">
+                                    <img src="/demo.ready.net/Public/Home/images/imgsearch1.jpg" alt="">
                                 </div>
                                 <span class="new-goods-num ">4</span>
                                 <span class="shop-title">剥壳松子</span>
@@ -429,7 +427,7 @@
                         <div class="new-goods-info">
                             <a class="shop-info" href="#" target="_blank">
                                 <div >
-                                    <img src="/demo.lgwsh.net/Public/Home/images/imgsearch1.jpg" alt="">
+                                    <img src="/demo.ready.net/Public/Home/images/imgsearch1.jpg" alt="">
                                 </div>
                                 <span class="one-hot-goods">￥9.20</span>
                             </a>

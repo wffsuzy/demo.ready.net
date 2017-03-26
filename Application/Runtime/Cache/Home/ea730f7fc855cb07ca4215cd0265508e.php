@@ -7,12 +7,12 @@
 
     <title>购物车页面</title>
 
-    <link href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
 
 </head>
 
@@ -47,8 +47,8 @@
 
 
 
-	<link href="/demo.lgwsh.net/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
-	<link href="/demo.lgwsh.net/Public/Home/css/stepstyle.css" rel="stylesheet" type="text/css">
+	<link href="/demo.ready.net/Public/Home/css/personal.css" rel="stylesheet" type="text/css">
+	<link href="/demo.ready.net/Public/Home/css/stepstyle.css" rel="stylesheet" type="text/css">
 	<div class="center">
 		<div class="col-main">
 			<div class="main-wrap">
@@ -80,19 +80,19 @@
 					<div class="am-form-group">
 						<label for="user-old-password" class="am-form-label">原密码</label>
 						<div class="am-form-content">
-							<input type="password" id="user-old-password" placeholder="请输入原登录密码">
+							<input type="password" id="user-old-password" placeholder="请输入原登录密码" name="old_password">
 						</div>
 					</div>
 					<div class="am-form-group">
 						<label for="user-new-password" class="am-form-label">新密码</label>
 						<div class="am-form-content">
-							<input type="password" id="user-new-password" placeholder="由数字、字母组合">
+							<input type="password" id="user-new-password" placeholder="由数字、字母组合" name="password" required>
 						</div>
 					</div>
 					<div class="am-form-group">
 						<label for="user-confirm-password" class="am-form-label">确认密码</label>
 						<div class="am-form-content">
-							<input type="password" id="user-confirm-password" placeholder="请再次输入上面的密码">
+							<input type="password" id="user-confirm-password" required placeholder="请再次输入上面的密码" name="confirm-password">
 						</div>
 					</div>
 					<div class="info-btn">
@@ -191,7 +191,7 @@
 					}else{
 					    window.location.href=data.data;
 					}
-                })
+                },'json')
             })
         })
 	</script>

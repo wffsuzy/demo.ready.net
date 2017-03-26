@@ -8,7 +8,7 @@
 
       <hr>
 
-      <form class="am-g" action="{:U('newslist')}" method="get">
+      <form class="am-g" action="{:U('orderlist')}" method="get">
         <div class="am-u-sm-12 am-u-md-4">
 
             <div class="am-form am-form-inline">
@@ -60,7 +60,7 @@
                 <th class="table-title">序号</th>
                 <th class="table-title">订单编号</th>
                 <th class="table-type">会员编号</th>
-                <th class="table-author am-hide-sm-only">社区站</th>
+                <th class="table-author am-hide-sm-only">订单状态</th>
                 <th class="table-date am-hide-sm-only">下单日期</th>
                 <th class="table-set">操作</th>
               </tr>
@@ -69,10 +69,10 @@
               <volist name="data" id="vo">
                 <tr>
                   <td>{$key}</td>
-                  <td><a href="#">Business management</a></td>
-                  <td>default</td>
-                  <td class="am-hide-sm-only">测试1号</td>
-                  <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
+                  <td><a href="#">{$vo['order_id']}</a></td>
+                  <td>{$vo['user_id']}</td>
+                  <td class="am-hide-sm-only"></td>
+                  <td class="am-hide-sm-only">{$vo['create_time']|date="Y-m-d H:i:s",###}</td>
                   <td>
                     <div class="am-btn-toolbar">
                       <div class="am-btn-group am-btn-group-xs">

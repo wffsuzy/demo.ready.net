@@ -7,12 +7,12 @@
 
     <title>购物车页面</title>
 
-    <link href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
-    <link href="/demo.lgwsh.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/cartstyle.css" rel="stylesheet" type="text/css" />
+    <link href="/demo.ready.net/Public/Home/css/optstyle.css" rel="stylesheet" type="text/css" />
 
-    <script type="text/javascript" src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
 
 </head>
 
@@ -51,9 +51,9 @@
 
 	</style>
 	<div class="nav white">
-		<div class="logo"><img src="/demo.lgwsh.net/Public/Home/images/logo.png" /></div>
+		<div class="logo"><img src="/demo.ready.net/Public/Home/images/logo.png" /></div>
 		<div class="logoBig">
-			<li><img src="/demo.lgwsh.net/Public/Home/images/logobig.png" /></li>
+			<li><img src="/demo.ready.net/Public/Home/images/logobig.png" /></li>
 		</div>
 
 		<div class="search-bar pr">

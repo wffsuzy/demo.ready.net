@@ -7,14 +7,14 @@
 
 	<title>首页</title>
 
-	<link href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+	<link href="/demo.ready.net/Public/Admin/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
 
-	<link href="/demo.lgwsh.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
+	<link href="/demo.ready.net/Public/Home/css/basic/css/demo.css" rel="stylesheet" type="text/css" />
 
-	<link href="/demo.lgwsh.net/Public/Home/css/hmstyle.css" rel="stylesheet" type="text/css"/>
-	<link href="/demo.lgwsh.net/Public/Home/css/skin.css" rel="stylesheet" type="text/css" />
-	<script src="/demo.lgwsh.net/Public/Admin/assets/js/jquery.min.js"></script>
-	<script src="/demo.lgwsh.net/Public/Admin/assets/js/amazeui.js"></script>
+	<link href="/demo.ready.net/Public/Home/css/hmstyle.css" rel="stylesheet" type="text/css"/>
+	<link href="/demo.ready.net/Public/Home/css/skin.css" rel="stylesheet" type="text/css" />
+	<script src="/demo.ready.net/Public/Admin/assets/js/jquery.min.js"></script>
+	<script src="/demo.ready.net/Public/Admin/assets/js/amazeui.js"></script>
 
 </head>
 
@@ -48,9 +48,9 @@
 	<!--悬浮搜索框-->
 
 	<div class="nav white">
-		<div class="logo"><img src="/demo.lgwsh.net/Public/Home/images/logo.png" /></div>
+		<div class="logo"><img src="/demo.ready.net/Public/Home/images/logo.png" /></div>
 		<div class="logoBig">
-			<li><img src="/demo.lgwsh.net/Public/Home/images/logobig.png" /></li>
+			<li><img src="/demo.ready.net/Public/Home/images/logobig.png" /></li>
 		</div>
 
 		<div class="search-bar pr">
@@ -68,10 +68,10 @@
 	<!--轮播 -->
 	<div class="am-slider am-slider-default scoll" data-am-flexslider id="demo-slider-0">
 		<ul class="am-slides">
-			<li class="banner1"><a href="introduction.html"><img src="/demo.lgwsh.net/Public/Home/images/ad1.jpg" /></a></li>
-			<li class="banner2"><a><img src="/demo.lgwsh.net/Public/Home/images/ad2.jpg" /></a></li>
-			<li class="banner3"><a><img src="/demo.lgwsh.net/Public/Home/images/ad3.jpg" /></a></li>
-			<li class="banner4"><a><img src="/demo.lgwsh.net/Public/Home/images/ad4.jpg" /></a></li>
+			<li class="banner1"><a href="introduction.html"><img src="/demo.ready.net/Public/Home/images/ad1.jpg" /></a></li>
+			<li class="banner2"><a><img src="/demo.ready.net/Public/Home/images/ad2.jpg" /></a></li>
+			<li class="banner3"><a><img src="/demo.ready.net/Public/Home/images/ad3.jpg" /></a></li>
+			<li class="banner4"><a><img src="/demo.ready.net/Public/Home/images/ad4.jpg" /></a></li>
 
 		</ul>
 	</div>
@@ -104,7 +104,7 @@
 						<ul class="category-list" id="js_climit_li">
 							<li class="appliance js_toggle relative first">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/cake.png"></i><a class="ml-22" title="点心">点心/蛋糕</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/cake.png"></i><a class="ml-22" title="点心">点心/蛋糕</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -155,7 +155,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/cookies.png"></i><a class="ml-22" title="饼干、膨化">饼干/膨化</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/cookies.png"></i><a class="ml-22" title="饼干、膨化">饼干/膨化</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -215,7 +215,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/meat.png"></i><a class="ml-22" title="熟食、肉类">熟食/肉类</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/meat.png"></i><a class="ml-22" title="熟食、肉类">熟食/肉类</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -268,7 +268,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/bamboo.png"></i><a class="ml-22" title="素食、卤味">素食/卤味</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/bamboo.png"></i><a class="ml-22" title="素食、卤味">素食/卤味</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -318,7 +318,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/nut.png"></i><a class="ml-22" title="坚果、炒货">坚果/炒货</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/nut.png"></i><a class="ml-22" title="坚果、炒货">坚果/炒货</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -370,7 +370,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/candy.png"></i><a class="ml-22" title="糖果、蜜饯">糖果/蜜饯</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/candy.png"></i><a class="ml-22" title="糖果、蜜饯">糖果/蜜饯</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -420,7 +420,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/chocolate.png"></i><a class="ml-22" title="巧克力">巧克力</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/chocolate.png"></i><a class="ml-22" title="巧克力">巧克力</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -472,7 +472,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/fish.png"></i><a class="ml-22" title="海味、河鲜">海味/河鲜</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/fish.png"></i><a class="ml-22" title="海味、河鲜">海味/河鲜</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -530,7 +530,7 @@
 							</li>
 							<li class="appliance js_toggle relative">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/tea.png"></i><a class="ml-22" title="花茶、果茶">花茶/果茶</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/tea.png"></i><a class="ml-22" title="花茶、果茶">花茶/果茶</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -579,7 +579,7 @@
 							</li>
 							<li class="appliance js_toggle relative last">
 								<div class="category-info">
-									<h3 class="category-name b-category-name"><i><img src="/demo.lgwsh.net/Public/Home/images/package.png"></i><a class="ml-22" title="品牌、礼包">品牌/礼包</a></h3>
+									<h3 class="category-name b-category-name"><i><img src="/demo.ready.net/Public/Home/images/package.png"></i><a class="ml-22" title="品牌、礼包">品牌/礼包</a></h3>
 									<em>&gt;</em></div>
 								<div class="menu-item menu-in top">
 									<div class="area-in">
@@ -658,25 +658,25 @@
 		<div class="am-g am-g-fixed smallnav">
 			<div class="am-u-sm-3">
 				<a href="<?php echo U('index/classify');?>"><img
-						src="/demo.lgwsh.net/Public/Home/images/navsmall.jpg" />
+						src="/demo.ready.net/Public/Home/images/navsmall.jpg" />
 					<div class="title">商品分类</div>
 				</a>
 			</div>
 			<div class="am-u-sm-3">
-				<a href="<?php echo U('all',array('area_id'=>4));?>"><img src="/demo.lgwsh.net/Public/Home/images/huismall.jpg"
+				<a href="<?php echo U('all',array('area_id'=>4));?>"><img src="/demo.ready.net/Public/Home/images/huismall.jpg"
 				/>
 					<div class="title">复消专区</div>
 				</a>
 			</div>
 			<div class="am-u-sm-3">
 				<a href="<?php echo U('user/index');?>"><img
-						src="/demo.lgwsh.net/Public/Home/images/mansmall.jpg" />
+						src="/demo.ready.net/Public/Home/images/mansmall.jpg" />
 					<div class="title">个人中心</div>
 				</a>
 			</div>
 			<div class="am-u-sm-3">
 				<a href="<?php echo U('all');?>"><img
-						src="/demo.lgwsh.net/Public/Home/images/moneysmall.jpg" />
+						src="/demo.ready.net/Public/Home/images/moneysmall.jpg" />
 					<div class="title">全部商品</div>
 				</a>
 			</div>
@@ -719,7 +719,7 @@
 
 		<div class="am-g am-g-fixed recommendation">
 			<div class="clock am-u-sm-3" ">
-			<img src="/demo.lgwsh.net/Public/Home/images/2016.png "></img>
+			<img src="/demo.ready.net/Public/Home/images/2016.png "></img>
 			<p>今日<br>推荐</p>
 		</div>
 		<div class="am-u-sm-4 am-u-lg-3 ">
@@ -728,7 +728,7 @@
 				<h4>开年福利篇</h4>
 			</div>
 			<div class="recommendationMain one">
-				<a href="introduction.html"><img src="/demo.lgwsh.net/Public/Home/images/tj.png "></img></a>
+				<a href="introduction.html"><img src="/demo.ready.net/Public/Home/images/tj.png "></img></a>
 			</div>
 		</div>
 		<div class="am-u-sm-4 am-u-lg-3 ">
@@ -737,7 +737,7 @@
 				<h4>让爱早回家</h4>
 			</div>
 			<div class="recommendationMain two">
-				<img src="/demo.lgwsh.net/Public/Home/images/tj1.png "></img>
+				<img src="/demo.ready.net/Public/Home/images/tj1.png "></img>
 			</div>
 		</div>
 		<div class="am-u-sm-4 am-u-lg-3 ">
@@ -746,7 +746,7 @@
 				<h4>甜甜蜜蜜</h4>
 			</div>
 			<div class="recommendationMain three">
-				<img src="/demo.lgwsh.net/Public/Home/images/tj2.png "></img>
+				<img src="/demo.ready.net/Public/Home/images/tj2.png "></img>
 			</div>
 		</div>
 

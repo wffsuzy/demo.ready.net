@@ -8,8 +8,8 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <link rel="alternate icon" type="image/png" href="/demo.lgwsh.net/Public/Admin/assets/i/favicon.png">
-  <link rel="stylesheet" href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.min.css"/>
+  <link rel="alternate icon" type="image/png" href="/demo.ready.net/Public/Admin/assets/i/favicon.png">
+  <link rel="stylesheet" href="/demo.ready.net/Public/Admin/assets/css/amazeui.min.css"/>
   <style>
     .header {
       text-align: center;
@@ -58,8 +58,8 @@
     <hr>
   </div>
 </div>
-<script src="/demo.lgwsh.net/Public/common/js/jquery.min.js"></script>
-<script src="/demo.lgwsh.net/Public/lib/layer/layer.js"></script>
+<script src="/demo.ready.net/Public/common/js/jquery.min.js"></script>
+<script src="/demo.ready.net/Public/lib/layer/layer.js"></script>
 <script>
 $(function () {
     $('form').submit(function (event) {

@@ -18,7 +18,7 @@ class BaseController extends Controller
     {
         parent::__construct();
 
-        $this->user_info=array('id'=>1);
+        $this->user_info=array('id'=>2);
 
 //        $this->user_info =  session('User_yctr');
 //        if(!$this->user_info){

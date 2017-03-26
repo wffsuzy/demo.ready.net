@@ -9,11 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="icon" type="image/png" href="/demo.lgwsh.net/Public/Admin/assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="/demo.lgwsh.net/Public/Admin/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="image/png" href="/demo.ready.net/Public/Admin/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/demo.ready.net/Public/Admin/assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
-    <link rel="stylesheet" href="/demo.lgwsh.net/Public/Admin/assets/css/amazeui.min.css"/>
-    <link rel="stylesheet" href="/demo.lgwsh.net/Public/Admin/assets/css/admin.css">
+    <link rel="stylesheet" href="/demo.ready.net/Public/Admin/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/demo.ready.net/Public/Admin/assets/css/admin.css">
 </head>
 <body>
 <!--[if lte IE 9]>
@@ -55,7 +55,7 @@
                 <?php if(is_array($admin_menu)): $i = 0; $__LIST__ = $admin_menu;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="admin-parent">
                     <a class="am-cf" data-am-collapse="{target: '#collapse-nav-<?php echo ($key); ?>'}"><span class="am-icon-file"></span> <?php echo ($vo['name']); ?> <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
                     <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav-<?php echo ($key); ?>">
-                        <?php if(is_array($vo['children_menu'])): $i = 0; $__LIST__ = $vo['children_menu'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vv): $mod = ($i % 2 );++$i;?><li><a href="/demo.lgwsh.net/admin.php/<?php echo ($vv['url']); ?>" class="am-cf"><span class="am-icon-check"></span> <?php echo ($vv['name']); ?><span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                        <?php if(is_array($vo['children_menu'])): $i = 0; $__LIST__ = $vo['children_menu'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vv): $mod = ($i % 2 );++$i;?><li><a href="/demo.ready.net/admin.php/<?php echo ($vv['url']); ?>" class="am-cf"><span class="am-icon-check"></span> <?php echo ($vv['name']); ?><span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                     </ul>
                 </li><?php endforeach; endif; else: echo "" ;endif; ?>
                 <!--<li class="admin-parent">-->
@@ -95,7 +95,7 @@
 
       <hr>
 
-      <form class="am-g" action="<?php echo U('newslist');?>" method="get">
+      <form class="am-g" action="<?php echo U('orderlist');?>" method="get">
         <div class="am-u-sm-12 am-u-md-4">
 
             <div class="am-form am-form-inline">
@@ -147,7 +147,7 @@
                 <th class="table-title">序号</th>
                 <th class="table-title">订单编号</th>
                 <th class="table-type">会员编号</th>
-                <th class="table-author am-hide-sm-only">社区站</th>
+                <th class="table-author am-hide-sm-only">订单状态</th>
                 <th class="table-date am-hide-sm-only">下单日期</th>
                 <th class="table-set">操作</th>
               </tr>
@@ -155,10 +155,10 @@
               <tbody>
               <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                   <td><?php echo ($key); ?></td>
-                  <td><a href="#">Business management</a></td>
-                  <td>default</td>
-                  <td class="am-hide-sm-only">测试1号</td>
-                  <td class="am-hide-sm-only">2014年9月4日 7:28:47</td>
+                  <td><a href="#"><?php echo ($vo['order_id']); ?></a></td>
+                  <td><?php echo ($vo['user_id']); ?></td>
+                  <td class="am-hide-sm-only"></td>
+                  <td class="am-hide-sm-only"><?php echo (date("Y-m-d H:i:s",$vo['create_time'])); ?></td>
                   <td>
                     <div class="am-btn-toolbar">
                       <div class="am-btn-group am-btn-group-xs">
@@ -212,17 +212,17 @@
 <!--[if lt IE 9]>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/amazeui.ie8polyfill.min.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/jquery.min.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/jquery.min.js"></script>
 <!--<![endif]-->
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/amazeui.min.js"></script>
-<script src="/demo.lgwsh.net/Public/Admin/assets/js/app.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/amazeui.min.js"></script>
+<script src="/demo.ready.net/Public/Admin/assets/js/app.js"></script>
 
-<script src="/demo.lgwsh.net/Public/lib/layer/layer.js"></script>
-<script src="/demo.lgwsh.net/Public/common/js/common.js"></script>
+<script src="/demo.ready.net/Public/lib/layer/layer.js"></script>
+<script src="/demo.ready.net/Public/common/js/common.js"></script>
 
 </body>
 </html>

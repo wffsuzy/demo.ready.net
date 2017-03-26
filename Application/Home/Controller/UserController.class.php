@@ -71,8 +71,9 @@ class UserController extends BaseController
                 echo "<script>alert('提交订单失败');window.location.back(-2)</script>";
                     return;
             }
-            $this->redirect(U('buying'),array('order_id'=>$param['order_id']));
+            $this->redirect(U('User/buying'),array('order_id'=>$param['order_id']));
         }
+
     }
 
     //购物车结算
@@ -165,7 +166,7 @@ class UserController extends BaseController
         }else{
 
             $user_info =$this->user->getUserinfoById($this->user_info['id']);
-            $this->assign('user_info',$user_info);
+            $this->assign('data',$user_info);
             $this->display();
         }
 
